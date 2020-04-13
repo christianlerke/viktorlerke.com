@@ -1,0 +1,17 @@
+/* --------------------------- CopperplateGothic ---------------------------*/
+
+@font-face {
+	font-family: 'CopperplateGothicLightRegular';
+	src: url('../Webfonts/CopperplateGothic-fontfacekit/coprgtl-webfont.eot');
+	src: local('☺'), url('../Webfonts/CopperplateGothic-fontfacekit/coprgtl-webfont.woff') format('woff'), url('../Webfonts/CopperplateGothic-fontfacekit/coprgtl-webfont.ttf') format('truetype'), url('../Webfonts/CopperplateGothic-fontfacekit/coprgtl-webfont.svg#webfontD864zTAZ') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CopperplateGothicBoldRegular';
+	src: url('../Webfonts/CopperplateGothic-fontfacekit/coprgtb-webfont.eot');
+	src: local('☺'), url('../Webfonts/CopperplateGothic-fontfacekit/coprgtb-webfont.woff') format('woff'), url('../Webfonts/CopperplateGothic-fontfacekit/coprgtb-webfont.ttf') format('truetype'), url('../Webfonts/CopperplateGothic-fontfacekit/coprgtb-webfont.svg#webfontvjnkFPta') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

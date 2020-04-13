@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		
+		<title>Viktor Lerke</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		
+		<link href="CSS/fonts.css" rel="stylesheet" type="text/css" />
+		<link href="CSS/reset-min.css" rel="stylesheet" type="text/css" />
+		
+		<link href="CSS/IE/Startup.css" rel="stylesheet" type="text/css" />
+		<link href="CSS/IE/Design.css" rel="stylesheet" type="text/css" />
+		<link href="CSS/IE/PageDesign.css" rel="stylesheet" type="text/css" />
+		
+		<link rel="stylesheet" href="CSS/IE/lightbox.css" type="text/css" media="screen" />
+		
+		<script src="Scripts/Startup.js" type="text/javascript"></script>
+		<script src="Scripts/Pageloader.js" type="text/javascript"></script>
+		<script src="Scripts/Database.js" type="text/javascript"></script>
+		<script src="Scripts/Scroll.js" type="text/javascript"></script>
+		<script src="Scripts/IE/GraphicOverlay-IE.js" type="text/javascript"></script>
+		
+		<script src="Scripts/IE/prototype.js" type="text/javascript"></script>
+		<script src="Scripts/IE/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
+		<script src="Scripts/IE/lightbox.js" type="text/javascript"></script>
+	</head>
+	<body onload="initiate();" >
+		<div id="Container" class="startup hiddenSubMenu">
+			<div id="Header">
+				<a href="#" onclick="loadWelcomePage(); return false;"><div id="Logo"></div></a>
+				<div id="Navigation">
+					<ul>
+						<li><a href="#german" onclick="loadLanguage('german'); return false;">Deutsch</a></li>
+						<li><a href="#spanish" onclick="loadLanguage('spanish'); return false;">Español</a></li>
+						<li><a href="#english" onclick="loadLanguage('english'); return false;">English</a></li>
+						<li class="russian"><a href="#russian" onclick="loadLanguage('russian'); return false;">Порусски</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="SubNavigation"></div>
+			<div id="Content"></div>
+			<div id="Footer">
+				<div id="Copyright">
+					<a href="http://www.christianlerke.com" target="_blank">&copy design by Christian Lerke 2011</a>
+				</div>
+			</div>
+			<div id="otherbrowsers">
+				<h2>Dise Seite ist für diese browser optimiert.</h2>
+				<h2>Esta página está optimizada para estos navegadores.</h2>
+				<h2>This page is optimised for these browsers.</h2>
+				<h2>Эта страница оптимизирована для этих браузеров.</h2>
+				<div class="browser">
+					<a href="http://www.apple.com/safari/download">
+						<h1>Safari</h1>
+						<img src="images/browsers/Safari-Logo.png" />
+					</a>
+				</div>
+				<div class="browser">
+					<a href="http://www.google.com/chrome/">
+						<h1>Chrome</h1>
+						<img src="images/browsers/Chrome-Logo.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,152 @@
+/************************** GENERAL ***********************************/
+html {
+	background-image: url("../images/Background.jpg");
+	background-repeat: repeat-x;
+	background-color: rgb( 241, 241, 241 );
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+}
+
+a {
+	color: rgb(34,70,129);
+	
+	transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+
+a:hover {
+	color: rgb(63,130,239);
+	text-decoration: underline;
+}
+
+li a {
+	color: black;
+}
+
+li a:hover {
+	color: rgb(63,130,239);
+}
+
+strong {
+	font-weight: bold;
+}
+
+/************************** CONTAINER ***********************************/
+#Container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#Container.startup {
+	height: 100%;
+}
+
+
+/************************** HEADER ***********************************/
+#Container #Header {
+	width: 1100px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 15px;
+	
+	transition: padding 1s;
+	-webkit-transition: padding 1s;
+}
+
+#Container.startup #Header {
+	padding-top: 0;
+}
+
+
+/************************** HEADER LOGO ***********************************/
+#Container #Header #Logo {
+	background-image: url("../images/Logo.png");
+	width: 230px;
+	height: 215px;
+	float: left;
+}
+
+
+/************************** HEADER NAVIGATION ***********************************/
+#Container #Header #Navigation {
+	width: 870px;
+	height: 60px;
+	position: relative;	
+	background-image: url("../images/NavigationBackground.png");
+	margin-top: 155px;
+	float: right;
+	
+	transition: margin 1s;
+	-webkit-transition: margin 1s;
+}
+
+#Container.startup #Header #Navigation {
+	margin-top: 65px;
+}
+
+#Container #Header #Navigation ul {
+	overflow: hidden;
+	height: 100%;
+	padding: 0 20px;
+	
+	transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+}
+
+#Container #Header #Navigation.outgoing ul {
+	opacity: 0;
+}
+
+#Container #Header #Navigation ul li {
+	float: left;
+	padding: 17px 0 22px 0;
+	height: 21px;
+}
+
+#Container #Header #Navigation.outgoing ul li,
+#Container.startup #Header #Navigation ul li {
+	letter-spacing: 5px;
+}
+
+#Container #Header #Navigation ul li.selected {
+	background-image: url("../images/NavigationPointer.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+#Container #Header #Navigation ul li a {
+	font-family: "CopperplateGothicLightRegular", Verdana, Helvetica, sans-serif;
+	font-size: 22px;
+}
+
+#Container #Header #Navigation ul li a:hover {
+	color: rgb(34,70,129);
+}
+
+#Container #Header #Navigation ul li.russian {
+	padding-top: 15px;
+}
+
+#Container #Header #Navigation ul li.russian a {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+
+/************************** HEADER SUBNAVIGATION ***********************************/
+#Container.startup #SubNavigation {
+	visibility: hidden;
+	height: 0px;
+}
+
+
+/************************** FOOTER COPYRIGHT ***********************************/
+#Container.startup #Footer #Copyright {
+	visibility: hidden;
+	opacity: 0;
+}
